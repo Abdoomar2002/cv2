@@ -12,12 +12,12 @@ margin: 0;
 }
 h1
 {
-  margin: 5rem auto 2rem;
+  margin: 5.3% auto 3% ;
   font-family: 'Sacramento', cursive,arial,sans-serif;
-  font-size: 5rem;
+  font-size: 500%;
 }h2
 {
-  margin :4rem auto;
+  margin :5% auto;
 }
 h3
 {
@@ -28,15 +28,15 @@ h3
 img
 {
   line-height: 0;
-  margin: 1rem auto;
+  margin: 1% auto;
 }
 a
 {
   color: #301934;
-  font-size: 2rem;
-  padding: 0 .5rem .7rem;
+  font-size: 200%;
+  padding: 0 .5% .7%;
   text-decoration: none;
-  padding-right: 30px;
+  padding-right: 2%;
   z-index: 1;
   width: auto;
   margin-top: 0;
@@ -44,12 +44,12 @@ a
 }
 p
 {
-  font:1rem;
+  font:100%;
   color:#202020;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-  width: 30%;
-margin :1rem auto;
+  width: 25%;
+margin :1% auto;
 text-align: left;
 
 }
@@ -59,7 +59,7 @@ hr
   border-top: 0;
   color:#EEE0F4;
   width: 5%;
-  margin: 2rem auto;
+  margin: 2% auto;
 }a:hover
 {
   color: #EEE0F4;
@@ -88,28 +88,30 @@ hr
 
 .brand
 {
-font-size: 4rem;
+font-size: 400%;
 display: inline-block;
 margin: 0 ;
 padding-top: 0;
-position: relative;
-right: 38rem;
+margin-right: 45%;
+
 color: white;
 font-weight:bolder;
-bottom: 1rem;
-height: 5rem;
+bottom: 20%;
+height: 1%;
 
+margin-left: 3%;
 }.nav
 {
-  bottom: 1.5rem;
+  bottom: 25%;
+  column-gap: 10%;
 }
 
 
 .first_cloud
 {
 position: relative;
-top :10rem;
-left: 15rem;
+top :9rem;
+left: 15%;
 opacity: 4;
 }
 .second_cloud
@@ -124,7 +126,7 @@ opacity: 3;
 {
   position: relative;
   margin-bottom: 0;
-  top:10px;
+  top:1%;
   left:4rem;
   opacity: 2;
 }
@@ -132,13 +134,15 @@ opacity: 3;
 {
 background-color: purple;
 padding: 0 ;
-position: fixed ;
-text-align-last: right;
+position: absolute ;
+text-align-last: left;
 width: 100%;
 z-index: 1;
 margin: 0;
 height: 6rem;
 
+}.navigate_bar:focus-visible{
+  outline: -webkit-focus-ring-color auto 1px;
 }
 .first_container
 { text-align: center;
@@ -160,21 +164,22 @@ text-align: center;
   height: 10rem;
   text-align: center;
   background-color: purple;
+  margin-top: 2%;
 }
 .ps
 {width: 60%;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 5%;
   text-align: left;
-margin-bottom: 5rem;
+margin-bottom: 5%;
 
 }
 
 
 .profile
-{ margin-top:  5rem;
+{ margin-top: 5%;
   border-radius: 100% 100% 0 0;
-  width: 20rem;
+  width: 20%;
 } .profil:hover
 {width: 10%;
   animation-name: rotate;
@@ -194,14 +199,14 @@ font-family: 'Playfair Display', serif;
 }
 #div3
 {
-  margin-top: 4rem;
+  margin-top: 4%;
 }
 .code
 {
 float: left;
 margin :auto;
-margin-left: 20%;
-padding-right: 12rem;
+margin-left: 10%;
+padding-right: 10%;
 }
 .p4
 {
