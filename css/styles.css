@@ -1,0 +1,231 @@
+body
+{
+margin: 0;
+color: #EAF6F6;
+line-height: 2;
+grid-row-gap: 1rem;
+}
+div
+{
+  padding: 0;
+margin: 0;
+}
+h1
+{
+  margin: 5rem auto 2rem;
+  font-family: 'Sacramento', cursive,arial,sans-serif;
+  font-size: 5rem;
+}h2
+{
+  margin :4rem auto;
+}
+h3
+{
+  color:#653D79;
+
+  text-align: left;
+}
+img
+{
+  line-height: 0;
+  margin: 1rem auto;
+}
+a
+{
+  color: #301934;
+  font-size: 2rem;
+  padding: 0 .5rem .7rem;
+  text-decoration: none;
+  padding-right: 30px;
+  z-index: 1;
+  width: auto;
+  margin-top: 0;
+  position: relative;
+}
+p
+{
+  font:1rem;
+  color:#202020;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  width: 30%;
+margin :1rem auto;
+text-align: left;
+
+}
+hr
+{border-style: dotted;
+  border-width: .5rem;
+  border-top: 0;
+  color:#EEE0F4;
+  width: 5%;
+  margin: 2rem auto;
+}a:hover
+{
+  color: #EEE0F4;
+}
+.btn {
+  background: purple;
+  background-image: -webkit-linear-gradient(top, purple, #EEE0F4);
+  background-image: -moz-linear-gradient(top, purple, #EEE0F4);
+  background-image: -ms-linear-gradient(top, purple, #EEE0F4);
+  background-image: -o-linear-gradient(top, purple, #EEE0F4);
+  background-image: linear-gradient(to bottom, purple, #EEE0F4);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #301934;
+  font-size: 24px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #7a317a;
+  text-decoration: none;
+}
+
+.brand
+{
+font-size: 4rem;
+display: inline-block;
+margin: 0 ;
+padding-top: 0;
+position: relative;
+right: 38rem;
+color: white;
+font-weight:bolder;
+bottom: 1rem;
+height: 5rem;
+
+}.nav
+{
+  bottom: 1.5rem;
+}
+
+
+.first_cloud
+{
+position: relative;
+top :10rem;
+left: 15rem;
+opacity: 4;
+}
+.second_cloud
+{
+position: relative;
+bottom: 10rem;
+right: 40rem;
+opacity: 3;
+
+}
+.mountain
+{
+  position: relative;
+  margin-bottom: 0;
+  top:10px;
+  left:4rem;
+  opacity: 2;
+}
+.navigate_bar
+{
+background-color: purple;
+padding: 0 ;
+position: fixed ;
+text-align-last: right;
+width: 100%;
+z-index: 1;
+margin: 0;
+height: 6rem;
+
+}
+.first_container
+{ text-align: center;
+  background-image: url("../images/space-stars-background-illustration-night-sky_160081-132.webp");
+}.second_container
+{
+  margin: 1rem auto;
+  text-align: center;
+}
+.third_container
+{
+text-align: center;
+}.fourth_container
+{
+  text-align: center;
+}.fifth_container
+{
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+  background-color: purple;
+}
+.ps
+{width: 60%;
+  margin: auto;
+  margin-top: 5rem;
+  text-align: left;
+margin-bottom: 5rem;
+
+}
+
+
+.profile
+{ margin-top:  5rem;
+  border-radius: 100% 100% 0 0;
+  width: 20rem;
+} .profil:hover
+{width: 10%;
+  animation-name: rotate;
+  animation-duration: 5s;
+
+}
+.intro
+{
+  color :	#707070;
+font-family: 'Playfair Display', serif;
+}
+.Skills
+{
+  color:#653D79;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+#div3
+{
+  margin-top: 4rem;
+}
+.code
+{
+float: left;
+margin :auto;
+margin-left: 20%;
+padding-right: 12rem;
+}
+.p4
+{
+text-align: left;
+
+}
+
+.devloper
+{
+  width: 35%;
+float: right;
+}.learn2
+{
+margin-right: 100%;
+}
+.p6
+{
+  text-align: center;
+}
+
+
+
+
+
+*{scroll-behavior: smooth;
+
+}
