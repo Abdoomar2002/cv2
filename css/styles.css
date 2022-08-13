@@ -64,6 +64,22 @@ hr
 {
   color: #EEE0F4;
 }
+table
+{ margin: 2% auto;
+  text-align: left;
+box-sizing: content-box;
+width: 70%;
+}
+td
+{
+  box-sizing: content-box;
+  align-items: top left;
+}
+td p {
+    text-align: left;
+    margin-left: 0;
+    width: auto;
+}
 .btn {
   background: purple;
   background-image: -webkit-linear-gradient(top, purple, #EEE0F4);
@@ -92,7 +108,7 @@ font-size: 400%;
 display: inline-block;
 margin: 0 ;
 padding-top: 0;
-margin-right: 45%;
+margin-right: 40%;
 
 color: white;
 font-weight:bolder;
@@ -125,7 +141,7 @@ opacity: 3;
 .mountain
 {
   position: relative;
-  margin-bottom: 0;
+  margin-bottom: -.5%;
   top:1%;
   left:4rem;
   opacity: 2;
@@ -216,7 +232,7 @@ text-align: left;
 
 .devloper
 {
-  width: 35%;
+
 float: right;
 }.learn2
 {
